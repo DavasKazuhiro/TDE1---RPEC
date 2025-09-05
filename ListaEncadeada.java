@@ -38,5 +38,9 @@ abstract class ListaEncadeada {
         System.out.println();
     }
 
+    public int veInicio() {
+        return primeiro.getValor();
+    }
+
     abstract void remover();
 }

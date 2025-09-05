@@ -19,9 +19,9 @@ public class Main {
                 case 2:
                     Questoes.mainQ2();
                     break;
-//                case 3:
-//                    Questoes.mainQ3();
-//                    break;
+                case 3:
+                    Questoes.mainQ31();
+                    break;
             }
             System.out.println("---------------------------------");
         }

@@ -39,4 +39,36 @@ public class Questoes {
         }
     }
 
+
+    public static void mainQ31() {
+        FilaListaEncadeada A = new FilaListaEncadeada();
+        FilaListaEncadeada B = new FilaListaEncadeada();
+
+        A.inserir(1);
+        A.inserir(3);
+        A.inserir(5);
+        A.inserir(7);
+        A.inserir(69);
+
+
+        B.inserir(2);
+        B.inserir(4);
+        B.inserir(6);
+        B.inserir(8);
+        B.inserir(690);
+
+        System.out.print("Fila A: ");
+        A.imprimir();
+        System.out.print("Fila B: ");
+        B.imprimir();
+
+        // Faz o merge das duas filas
+        FilaListaEncadeada C = Merge.mergeFilas(A, B);
+
+        System.out.print("Fila C (merge encadeado): ");
+        C.imprimir();
+
+    }
+
+
 }
