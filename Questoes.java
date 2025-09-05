@@ -57,18 +57,16 @@ public class Questoes {
                     FilaListaEncadeada A = new FilaListaEncadeada();
                     FilaListaEncadeada B = new FilaListaEncadeada();
 
-                    A.inserir(1);
-                    A.inserir(3);
-                    A.inserir(5);
-                    A.inserir(7);
-                    A.inserir(69);
+                    A.inserir(12);
+                    A.inserir(35);
+                    A.inserir(52);
+                    A.inserir(64);
 
-
-                    B.inserir(2);
-                    B.inserir(4);
-                    B.inserir(6);
-                    B.inserir(8);
-                    B.inserir(690);
+                    B.inserir(5);
+                    B.inserir(15);
+                    B.inserir(23);
+                    B.inserir(55);
+                    B.inserir(75);
 
                     System.out.print("Fila A: ");
                     A.imprimir();
